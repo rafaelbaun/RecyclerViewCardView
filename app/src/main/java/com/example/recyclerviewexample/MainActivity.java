@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         contactsRecView.setAdapter(adapter);
 
         //Muss aufgerufen werden, damit dargestellt werden kann, wie sich das Layout verhaltet
+        //Entweder Gridlayoutmanager oder RelativeLayoutManager
         contactsRecView.setLayoutManager(new GridLayoutManager(this,2));
 
 
