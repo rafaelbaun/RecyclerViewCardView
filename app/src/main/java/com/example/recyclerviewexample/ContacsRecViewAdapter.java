@@ -88,7 +88,7 @@ public class ContacsRecViewAdapter extends RecyclerView.Adapter<ContacsRecViewAd
     public void setContacts(ArrayList<Contact> contacts) {
         this.contacts = contacts;
 
-        //Daten werden geupdated
+        //Daten werden geupdated...
         notifyDataSetChanged();
     }
 }
